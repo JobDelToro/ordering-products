@@ -8,7 +8,7 @@ import ProductList from './products/ProductList';
 class Store extends Component {
 	
 	componentDidMount() {
-		this.props.fetchCategories();
+		this.props.fetchcategories();
 	}
 	
 	renderCategoriesList(searchProducts) {
